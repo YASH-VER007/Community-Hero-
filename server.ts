@@ -60,7 +60,7 @@ const initialSeedData: DBState = {
   users: [
     {
       id: "u-yash",
-      email: "yash@gmail.com",
+      email: "support@communityhero.ai",
       name: "Yash Verma",
       role: "citizen",
       points: 450,
