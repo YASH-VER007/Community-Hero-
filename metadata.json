@@ -1,0 +1,12 @@
+{
+  "name": "Community Hero",
+  "description": "AI-Powered Hyperlocal Problem Solver for civic action and community maintenance",
+  "requestFramePermissions": [
+    "geolocation",
+    "microphone",
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

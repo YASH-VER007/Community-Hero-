@@ -1,0 +1,347 @@
+{
+  "users": [
+    {
+      "id": "u-yash",
+      "email": "yashverma2123@gmail.com",
+      "name": "Yash Verma",
+      "role": "citizen",
+      "points": 450,
+      "badges": [
+        "Community Hero",
+        "Active Reporter"
+      ],
+      "joinedDate": "2026-01-10",
+      "avatar": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=120&h=120&q=80",
+      "phone": "+91 98765 43210"
+    },
+    {
+      "id": "u-aarav",
+      "email": "aarav@community.gov",
+      "name": "Aarav Sharma",
+      "role": "volunteer",
+      "points": 780,
+      "badges": [
+        "Top Volunteer",
+        "Problem Solver",
+        "City Guardian"
+      ],
+      "joinedDate": "2026-02-14",
+      "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=120&h=120&q=80",
+      "phone": "+91 91234 56789"
+    },
+    {
+      "id": "u-priya",
+      "email": "priya@community.org",
+      "name": "Priya Patel",
+      "role": "volunteer",
+      "points": 320,
+      "badges": [
+        "Active Reporter",
+        "Top Volunteer"
+      ],
+      "joinedDate": "2026-03-22",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=120&h=120&q=80",
+      "phone": "+91 92345 67890"
+    },
+    {
+      "id": "u-officer-rajesh",
+      "email": "rajesh.kumar@municipal.gov",
+      "name": "Rajesh Kumar",
+      "role": "officer",
+      "points": 150,
+      "badges": [
+        "City Guardian"
+      ],
+      "joinedDate": "2025-11-05",
+      "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=120&h=120&q=80",
+      "phone": "+91 93456 78901",
+      "department": "Road and Infrastructure Board"
+    },
+    {
+      "id": "u-admin",
+      "email": "admin@communityhero.org",
+      "name": "Admin Team",
+      "role": "admin",
+      "points": 1000,
+      "badges": [
+        "City Guardian"
+      ],
+      "joinedDate": "2025-09-01",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=120&h=120&q=80"
+    }
+  ],
+  "issues": [
+    {
+      "id": "issue-101",
+      "title": "Massive Pothole on Sector 15 Main Highway",
+      "description": "A huge, deep pothole has opened up near the metro pillars. It is extremely dangerous for two-wheelers, especially during night or rain, causing severe traffic slowdowns.",
+      "category": "Pothole",
+      "severity": "Critical",
+      "status": "In Progress",
+      "reporterId": "u-yash",
+      "reporterName": "Yash Verma",
+      "upvotes": 42,
+      "upvotedBy": [
+        "u-priya",
+        "u-aarav"
+      ],
+      "verifications": 5,
+      "verifiedBy": [
+        "u-priya",
+        "u-aarav"
+      ],
+      "verificationScore": 88,
+      "coordinates": {
+        "lat": 28.5355,
+        "lng": 77.391,
+        "address": "Sector 15 Main Highway, Near Pillar 45, Noida"
+      },
+      "imageUrl": "https://images.unsplash.com/photo-1515162305285-0293e4767cc2?auto=format&fit=crop&w=600&q=80",
+      "date": "2026-06-20T10:30:00.000Z",
+      "progress": 60,
+      "assignedOfficerId": "u-officer-rajesh",
+      "assignedOfficerName": "Rajesh Kumar",
+      "comments": [
+        {
+          "id": "c-1",
+          "userId": "u-priya",
+          "userName": "Priya Patel",
+          "userRole": "volunteer",
+          "text": "I visited this sector yesterday. The pothole is indeed nearly 1 foot deep. Be careful!",
+          "date": "2026-06-20T12:15:00.000Z"
+        },
+        {
+          "id": "c-2",
+          "userId": "u-officer-rajesh",
+          "userName": "Rajesh Kumar",
+          "userRole": "officer",
+          "text": "Work order has been sent to our local paving unit. Paving materials have been allocated. Expecting resolution by Friday.",
+          "date": "2026-06-21T09:00:00.000Z"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "userId": "u-aarav",
+          "userName": "Aarav Sharma",
+          "imageUrl": "https://images.unsplash.com/photo-1612450791484-90f70ee4be17?auto=format&fit=crop&w=600&q=80",
+          "description": "Another angle displaying the depth of the road damage.",
+          "date": "2026-06-21T14:20:00.000Z"
+        }
+      ],
+      "aiSummary": "Hazardous 1-foot-deep highway pothole located near active transit corridor.",
+      "aiSuggestedAction": "Immediate concrete refilling, lane diversion signs, and nighttime flashing lights.",
+      "aiEstimatedImpact": "Prevents high-speed vehicular crashes, particularly safeguarding two-wheeler commuters."
+    },
+    {
+      "id": "issue-102",
+      "title": "Broken Streetlight Near Community Park",
+      "description": "Three consecutive streetlights are out, leaving the entire sidewalk and residential entrance in pitch darkness. Residents are feeling unsafe walking after sunset.",
+      "category": "Streetlight Failure",
+      "severity": "High",
+      "status": "Verified",
+      "reporterId": "u-priya",
+      "reporterName": "Priya Patel",
+      "upvotes": 18,
+      "upvotedBy": [
+        "u-yash"
+      ],
+      "verifications": 3,
+      "verifiedBy": [
+        "u-aarav"
+      ],
+      "verificationScore": 75,
+      "coordinates": {
+        "lat": 28.541,
+        "lng": 77.402,
+        "address": "Lane 4, Pocket B, near Central Park Gate 2, Sector 22"
+      },
+      "imageUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=600&q=80",
+      "date": "2026-06-21T18:45:00.000Z",
+      "progress": 30,
+      "comments": [
+        {
+          "id": "c-3",
+          "userId": "u-aarav",
+          "userName": "Aarav Sharma",
+          "userRole": "volunteer",
+          "text": "Verified. Walked this lane yesterday at 8 PM, totally dark and unsafe.",
+          "date": "2026-06-22T04:10:00.000Z"
+        }
+      ],
+      "evidence": [],
+      "aiSummary": "Dark community zone caused by multiple contiguous streetlight bulb/wiring failures.",
+      "aiSuggestedAction": "Inspect pole junction box, replace dead bulbs with 40W LED, and evaluate automatic timers.",
+      "aiEstimatedImpact": "Restores community walkability, deters anti-social behavior, and provides peace of mind to seniors."
+    },
+    {
+      "id": "issue-103",
+      "title": "Overflowing Garbage and Illegal Dumping Ground",
+      "description": "The municipal garbage bin hasn't been emptied for over 5 days. Dogs and stray cows are scattering trash all over the road, creating a terrible smell and a critical health hazard.",
+      "category": "Garbage Collection",
+      "severity": "High",
+      "status": "Reported",
+      "reporterId": "u-aarav",
+      "reporterName": "Aarav Sharma",
+      "upvotes": 29,
+      "upvotedBy": [
+        "u-priya"
+      ],
+      "verifications": 1,
+      "verifiedBy": [],
+      "verificationScore": 40,
+      "coordinates": {
+        "lat": 28.529,
+        "lng": 77.382,
+        "address": "Corner plot near Sector 19 Commercial Market"
+      },
+      "imageUrl": "https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?auto=format&fit=crop&w=600&q=80",
+      "date": "2026-06-23T06:10:00.000Z",
+      "progress": 10,
+      "comments": [],
+      "evidence": [],
+      "aiSummary": "Stagnant uncollected trash heap creating breeding ground for disease vector pests.",
+      "aiSuggestedAction": "Immediate heavy-duty waste collection vehicle dispatch and periodic spraying of sanitizing agents.",
+      "aiEstimatedImpact": "Decongestion of public market street and elimination of severe sanitation issues."
+    },
+    {
+      "id": "issue-104",
+      "title": "Burst Water Main Flooding Street",
+      "description": "A primary fresh water distribution line has ruptured, spraying clean drinking water 5 feet in the air and flooding the main residential crossing.",
+      "category": "Water Leakage",
+      "severity": "Critical",
+      "status": "Resolved",
+      "reporterId": "u-yash",
+      "reporterName": "Yash Verma",
+      "upvotes": 56,
+      "upvotedBy": [
+        "u-priya",
+        "u-aarav",
+        "u-admin"
+      ],
+      "verifications": 8,
+      "verifiedBy": [
+        "u-priya",
+        "u-aarav"
+      ],
+      "verificationScore": 99,
+      "coordinates": {
+        "lat": 28.5312,
+        "lng": 77.3754,
+        "address": "Crossroad near Sector 12 Market Complex"
+      },
+      "imageUrl": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=600&q=80",
+      "date": "2026-06-18T07:15:00.000Z",
+      "progress": 100,
+      "assignedOfficerId": "u-officer-rajesh",
+      "assignedOfficerName": "Rajesh Kumar",
+      "resolutionProofUrl": "https://images.unsplash.com/photo-1542060748-10c28b629f6f?auto=format&fit=crop&w=600&q=80",
+      "resolutionComment": "Line isolated, broken 8-inch cast iron pipe replaced with a heavy-duty PVC mains grade connector, line restored and road cleaned.",
+      "resolvedDate": "2026-06-19T14:30:00.000Z",
+      "comments": [
+        {
+          "id": "c-4",
+          "userId": "u-officer-rajesh",
+          "userName": "Rajesh Kumar",
+          "userRole": "officer",
+          "text": "Water board team has successfully shut off the main valve to contain leakage. Splicing crew is now repairing the pipeline.",
+          "date": "2026-06-18T09:30:00.000Z"
+        }
+      ],
+      "evidence": [],
+      "aiSummary": "Main clean-water utility pipe rupture resulting in local street flooding and drinking water loss.",
+      "aiSuggestedAction": "Urgent municipal water department dispatch to throttle safety valves and splice water pipes.",
+      "aiEstimatedImpact": "Saves thousands of gallons of vital water and restores traffic and neighborhood mobility."
+    }
+  ],
+  "notifications": [
+    {
+      "id": "n-1",
+      "userId": "u-yash",
+      "text": "Your reported water leakage has been marked RESOLVED by Rajesh Kumar!",
+      "date": "2026-06-19T14:30:00.000Z",
+      "read": false,
+      "type": "resolved",
+      "issueId": "issue-104"
+    },
+    {
+      "id": "n-2",
+      "userId": "u-yash",
+      "text": "You earned 50 points for the successful resolution of your report!",
+      "date": "2026-06-19T14:35:00.000Z",
+      "read": false,
+      "type": "points",
+      "issueId": "issue-104"
+    },
+    {
+      "id": "n-3",
+      "userId": "u-priya",
+      "text": "Aarav Sharma added a comment on the streetlight issue you verified.",
+      "date": "2026-06-22T04:10:00.000Z",
+      "read": true,
+      "type": "comment",
+      "issueId": "issue-102"
+    }
+  ],
+  "analyticsHistory": {
+    "monthlyReports": [
+      {
+        "month": "Jan",
+        "reported": 45,
+        "resolved": 38
+      },
+      {
+        "month": "Feb",
+        "reported": 58,
+        "resolved": 48
+      },
+      {
+        "month": "Mar",
+        "reported": 72,
+        "resolved": 65
+      },
+      {
+        "month": "Apr",
+        "reported": 89,
+        "resolved": 80
+      },
+      {
+        "month": "May",
+        "reported": 110,
+        "resolved": 92
+      },
+      {
+        "month": "Jun",
+        "reported": 145,
+        "resolved": 121
+      }
+    ],
+    "topProblemAreas": [
+      {
+        "name": "Pothole & Roads",
+        "value": 38,
+        "color": "#EF4444"
+      },
+      {
+        "name": "Waste Management",
+        "value": 24,
+        "color": "#F59E0B"
+      },
+      {
+        "name": "Water Leakage",
+        "value": 16,
+        "color": "#3B82F6"
+      },
+      {
+        "name": "Public Safety & Lights",
+        "value": 14,
+        "color": "#10B981"
+      },
+      {
+        "name": "Traffic/Signals",
+        "value": 8,
+        "color": "#8B5CF6"
+      }
+    ]
+  }
+}
