@@ -167,20 +167,6 @@ Encourage participation through:
 
 ---
 
-# 📸 Application Screenshots
-
-Include screenshots here:
-
-* Homepage
-* AI Detection
-* Interactive Map
-* Predictive AI
-* Community Verification
-* Timeline
-* Dashboard
-
----
-
 # 🎯 Future Scope
 
 * Municipal ERP Integration
